@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/register.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body class="body">
+    <div class="container">
+        <span style="font-size: xx-large; font-weight: 650; color: #4B79A1;">Cadastro</span>
+        <form action="" method="POST" class="entry">
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">Nome:</span>
+                <input type="text" placeholder="Digite seu nome" id="nome">
+            </div>
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">E-mail:</span>
+                <input type="email" placeholder="Digite seu e-mail" id="email">
+            </div>
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">Senha:</span>
+                <input type="password" placeholder="Digite sua senha" id="senha">
+            </div>
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">Animes favoritos:</span>
+                <div class="favorites">
+                    <!-- Checkboxes serão gerados dinamicamente via JS -->
+                </div>
+            </div>
+            <input type="submit" value="Cadastrar" class="button">
+        </form>
+        <div>
+            <span>Já possui conta? </span><a href="login.html" style="color: #4B79A1; text-decoration: none; cursor: pointer;">Faça login</a>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>
