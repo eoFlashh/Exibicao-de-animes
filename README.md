@@ -1,7 +1,6 @@
 **Grupo:** João Paulo, João Fideles, Caiqui Estrela
 
 # Sistema de Cadastro e Login com Exibição de Animes Favoritos
-#Para acessar o projeto use "git clone https://github.com/CaiquiEG/projeto02.git"
 
 Este é um projeto simples de um sistema de cadastro e login que permite aos usuários registrar suas informações, fazer login e visualizar uma página inicial personalizada com seus animes favoritos.
 
